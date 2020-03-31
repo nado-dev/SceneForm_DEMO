@@ -10,7 +10,6 @@
 
 通过点击选择模型（demo中只提供了两个模型），识别出完整平面后点击即可放置模型。点击模型上方的textView可以取消放置。
 
-<img src=".\demo.jpg" alt="demo" style="zoom:25%;" />
 
 ## 开发简介
 
@@ -111,7 +110,7 @@
              });
      ```
 
-     **注意：**各个锚点`AnchorNode`可以形成类似`View`的树状结构，通过树状结构的增删可以配置各个`AnchorNode`和依赖于它的`ModelRenderable`
+     **注意：** 各个锚点`AnchorNode`可以形成类似`View`的树状结构，通过树状结构的增删可以配置各个`AnchorNode`和依赖于它的`ModelRenderable`
 
      ​	所以移除一个模型的方法`anchorNode.setParent(null);`
 
